@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# 数据集与模型权重（大文件不进仓库）
+dataset/
+datasets/
+*.pt
+*.onnx
+*.engine
+runs/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# 临时文件
+*.tmp
+*.log
+~$*
+
+# 本地简历与面试隐私（不提交公开仓库）
+docs/简历_一页版.*
+docs/简历_填写清单.md
+docs/03_简历与面试准备.md
